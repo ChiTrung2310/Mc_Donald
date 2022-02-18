@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Sign{
+	width: 1150px;
+	height: 10px;
+	margin: 10px auto;
+	color: #999999;
+	font-family: arial;
+	font-size: 12px;
+}
+
+.Email{
+	position: absolute;
+    background-color: rgba(255,255,255,.7);
+    width: 300px;
+	margin-top: 30px;
+	margin-left: 830px;
+	height: 357px;
+	border-radius: 5px;
+}
+
+.menuDH i{
+	margin-right: 10px;
+}
+
+.Email p{
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 28px;
+	margin-top: 10px;
+	
+}
+
+.Sign_body{
+	margin-top: 10px;
+	color: #3D3D3D;
+}
+
+.Sign_body li{
+	list-style-type: none;
+	font-family: Comic Sans MS;
+	font-size: 16px;
+}
+
+.panel{
+	width: 50%;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #ccc;
+}
+
+.panel_body{
+	width: 35%;
+	float: right;
+}
+
+.tab{
+	width: 90%;
+	margin: 50px auto;
+}
+
+.tab a{
+	font-family: Comic Sans MS;
+	font-size: 14px;
+	color: #333;
+	line-height: 2;
+}
+
+#from_login{
+	width: 92%;
+	height: 42px;
+	padding-left: 15px;
+}
+
+#from_password{
+	width: 92%;
+	height: 42px;
+	padding-left: 15px;
+}
+
+label a{
+	font-family: Comic Sans MS;
+	color: #333;
+	font-size: 14px;
+
+}
+
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+	border-radius: 10px;
+    width:45px;
+    height:45px;
+    margin: 5px 10px 0 0;
+    vertical-align:middle;
+    background:url("../images/checkbox.png") -2px -30px no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url("../images/check.png") -45px -54px no-repeat;
+}
+
+.text_box{
+	text-align: center;
+	margin-top: -35px;
+	margin-left: -70px;
+	font-family: Comic Sans MS;
+	font-size: 14px;
+	color: #333;
+}
+
+button.submit_Email{
+	margin-top: 25px;
+}
+
+.TT{
+	position: relative;
+}
+
+button.submit_Email{
+	margin-top: 10px;
+}
+
+.submit_Email{
+	width: 98%;
+	height: 57px;
+	border-radius: 9px;
+	background-color: #EC4C34;
+	border: none;
+	color: #FFFFFF;
+	font-family: Comic Sans MS;
+	font-size: 27px;
+}
+
+.forgot{
+	margin-left: 60px;
+}
+
+.ENG{
+	float: left;
+	width: 30%;
+    min-height: 1px;
+}
+
+.ENG li {
+	list-style-type: none;
+}
+
+.Acc{
+	float: right;
+	text-align: right;
+	width: 66%;
+    min-height: 1px;
+}
+
+.Acc li {
+	list-style-type: none;
+}
+
+.menuDH ul {
+	list-style-type: none;
+	background: #30363D;
+	width: 1150px;
+	margin: 20px auto 10px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0 0 0 5px;
+}
+
+.menuDH ul li{
+	color: #f1f1f1;
+	display: inline-table;
+	width: 186px;
+	height: 40px;
+	line-height: 50px;
+	position: relative;
+}
+
+.menuDH ul li img{
+	vertical-align: middle;
+	margin-bottom: 5px;
+	
+}
+
+.menuDH ul li a{
+	color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.menuDH ul li a:hover{
+	color: #ffbc0d;
+	background: #BD0017;
+}
+
+.Picture{
+	width: 1150px;
+	margin: 20px auto;
+}
+
+.Pic_DH_1{
+	float: left;
+	width: 360px;
+	margin-right: 10px;
+}
+
+.Pic_DH_2{
+	float: left;
+	width: 370px;
+	margin-left: 20px;
+	
+}
+
+.Picture img{
+	border-radius: 5px;
+}
+
+.Pic_DH_3{
+	float: right;
+	width: 360px;
+	
+}
+
+.order{
+	width: 1150px;
+	margin: 320px auto 0px auto;
+}
+
+.order hr{
+	margin-bottom: 20px;
+}
+
+.DH_title{
+	font-family: arial;
+	margin-bottom: 20px;
+}
+
+.footer_DH{
+	height: 500px;
+	width: 100%;
+	margin-top: 50px;
+	background-color: #353535;
+}
+
+.footer_row{
+	width: 1140px;
+	margin: 20px auto;
+}
+
+.footer_row ul{
+	list-style-type: none;
+}
+
+.footer_row li{
+	color: #727272;
+	font-family: arial;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.footer_row li span{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: arial;
+}
+
+.menu{
+	height: 40px;
+}
+
+.footer_li{
+	width: 100%;
+	margin: 0px auto;
+}
+
+.footer_Us li i{
+	margin-right: 20px;
+	line-height: 1.4;
+	vertical-align: middle;
+}
+
+.fa-youtube{
+	margin-left: -2px;
+}
+
+.menu{
+	float: left;
+	width: 25%;
+	margin-top: 40px;
+}
+
+.footer_Support{
+	float: left;
+	width: 25%;
+	margin-top: 40px;
+}
+
+.footer_Us{
+	float: left;
+	width: 25%;
+	margin-top: 40px;
+}
+
+.copyright_DH{
+	width: 100%;
+	margin: 0px auto;
+	height: 74px;
+	background-color: #1D1D1D;
+}
+
+.copyright_DH p{
+	text-align: center;
+	color: #B4B4B4;
+	margin: 0px auto;
+	padding-top: 22px;
+	line-height: 1.6;
+	font-size: 12px;
+	font-family: arial;
+}
+

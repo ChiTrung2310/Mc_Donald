@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mcdelivery.vn</title>
+<link href="css/mycss_1.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" sizes="16x16" href= "images/favicon.ico">
+</head>
+
+<body>
+	
+<div class="container">
+	<link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css"/>
+	
+
+	<div class="Sign">
+		
+		<div class="ENG">
+			<ul>
+				<li>
+					<a>
+						English | Tiếng Việt
+					</a>
+				</li>
+			</ul>
+		
+		</div>
+		<div class="Acc">
+			<ul>
+				<li>
+					<a>
+						Sign In | Track My Order
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+	
+	
+	<! Đây là phần menu phía trên>
+	
+	<div class="menuDH">
+		<ul>
+			<li><a href="DH.html"><img src="images/mcdelivery_logo_en.jpg" width="142" alt=""/></a></li>
+			<li><a href="#"><i class="fas fa-hamburger"></i>Menu</a></li>
+			<li><a href="#"><i class="fas fa-tags"></i>Offers</a></li>
+			<li><a href="#"><i class="fas fa-user"></i>My Account</a></li>
+			<li><a href="#"><i class="fas fa-phone-alt"></i>Support</a></li>
+		</ul>
+	</div>
+	
+	
+	<!-Đây là phần Banner chuyển động qua lại->
+	
+	<div class="banner">
+				  <script src="image-slider.slider.standard_3/js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$,
+                $SpacingX: 16,
+                $SpacingY: 16
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1150;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin double-tail-spin css*/
+        .jssorl-004-double-tail-spin img {
+            animation-name: jssorl-004-double-tail-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-004-double-tail-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 051 css*/
+        .jssorb051 .i {position:absolute;cursor:pointer;}
+        .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+        .jssorb051 .i:hover .b {fill-opacity:.7;}
+        .jssorb051 .iav .b {fill-opacity: 1;}
+        .jssorb051 .i.idn {opacity:.3;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1150px;height:478px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-004-double-tail-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/double-tail-spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1150px;height:478px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="images/landing_13244_frchs_WOS.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="images/landing_3245_freeship_WOS_e-min.jpg" />
+            </div>
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">html slider</a>
+			<div class="Email">
+				<p>Start Ordering</p>
+				<div class="Sign_body">
+								<div class="panel">
+					<ul>
+						<li>
+							<a>Sign In</a>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="panel_body">
+					<ul>
+						<li>
+							<a>I'm New</a>
+						</li>
+						
+					</ul>
+					
+				</div>
+				</div>
+				
+				<div class="tab">
+					<input type="email" id="from_login" placeholder="Email">
+					<input type="password" id="from_password" placeholder="Password">
+					<input type="checkbox" id="tick" name="Me"/>
+					<label for="tick"><span></span><a>Remember Me</a></label>
+					<button type="submit" class="submit_Email" onClick="#">Sign In</button>
+					<div class="forgot"><a>FORGOT PASSWORD?</a></div>
+				</div>
+			</div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:16px;right:16px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:15px;height:15px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+		
+	</div>
+			<!-Kết thúc phần Banner->
+			<!==========================================================================================>
+	
+	
+
+
+  	<div class="Picture">
+		<div class="Pic_DH_1"><img src="images/home_promo_2580_subhome_wos_faqs_en.jpg" width="360" alt=""/></div>
+		<div class="Pic_DH_2"><img src="images/home_promo_13241_freeship_MDSbottom_e-min.jpg" width="370" alt=""/></div>
+		<div class="Pic_DH_3"><img src="images/home_promo_2582_subhome_wos_newapp_en.jpg" width="360" alt=""/></div>
+		
+	</div>
+	
+	
+	<div class="order">
+		<hr/>
+		<h1 class="DH_title">How does McDelivery™ Work?</h1>
+		
+		<img src="images/how_mcdelivery_works_en.png" width="1150" alt=""/>
+			
+	</div>
+	
+	<div class="footer_DH">
+		<div class="footer_row">
+			<div class="footer_li">
+			<div class="menu">
+				<ul>
+					<li><span>Menu</span></li>
+					<li>Promotions & Combos</li>
+					<li>Secret Menu</li>
+					<li>Fried Chicken</li>
+					<li>Beef Burger</li>
+					<li>Chicken & Fish Burger</li>
+					<li>Rice</li>
+					<li>Happy Meals</li>
+					<li>Snacks/Sides</li>
+					<li>Beverages</li>
+					<li>McCAFÉ</li>
+					<li>Dessert</li>
+				</ul>
+			</div>
+			
+			<div class="footer_Support">
+				<ul>
+					<li><span>Support</span></li>
+						<li>Terms & Conditions</li>
+						<li>Privacy Policy</li>
+						<li>Web Ordering Policy</li>
+						<li>FAQ</li>
+						<li>Contact us</li>
+						<li>Mobile web</li>
+				</ul>
+			</div>
+			
+			<div class="footer_Us">
+				<ul>
+					<li><span>Follow Us</span></li>
+					
+					<li><i class="fab fa-facebook-square fa-2x"></i>Facebook</li>
+					<li><i class="fab fa-youtube fa-2x"></i>YouTube</li>
+					<li><i class="fab fa-instagram fa-2x"></i>Instagram</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+		
+	<div class="copyright_DH">
+		
+		<p>COPYRIGHT © 2016 ALL RIGHTS RESERVED BY MCDONALD'S™
+			<br>
+		THE GOLDEN ARCHES LOGO AND "I'M LOVIN' IT" ARE TRADEMARKS OF MCDONALD'S CORPORATION AND ITS AFFILIATES.</p>
+	</div>
+	
+
+</div>			
+</body>
+</html>
